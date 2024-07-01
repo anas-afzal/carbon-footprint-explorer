@@ -25,6 +25,14 @@
    npm i
    ```
 
+3. Duplicate `.env` in root folder and rename it to `.env.development.local` using:
+
+   ```bash
+   cp .env .env.development.local
+   ```
+
+4. Add required environment variables in the `.env.development.local` file
+
 ### Running the project
 
 Start the project using:
